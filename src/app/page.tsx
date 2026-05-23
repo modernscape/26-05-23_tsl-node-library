@@ -24,7 +24,7 @@ export default function Home() {
       // カテゴリーごとにX軸をずらして配置するロジック
       position: {
         x: (index % 4) * 300,
-        y: Math.floor(index / 4) * 350,
+        y: Math.floor(index / 4) * 250,
       },
       data: d, // BaseNode にデータを渡す
     }))

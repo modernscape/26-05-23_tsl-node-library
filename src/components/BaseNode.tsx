@@ -7,6 +7,7 @@ type NodeData = {
   category: string // 追加: 色分けのために必要
   title: string
   // color はカテゴリーから自動生成するようにすれば、必須ではなくなります
+  description?: string // 追加
   color?: string
   outputs?: { name: string }[]
   inputs?: { name: string; color?: string }[]
@@ -26,13 +27,22 @@ const getCategoryColor = (category: string) => {
       return "#503050" // 紫系
     case "Material":
       return "#1a331a" // 緑系
+    case "Conversions":
+      return "#55331a"
     default:
       return "#555555" // デフォルト
   }
 }
 
 export const BaseNode = ({ data }: NodeProps<NodeData>) => {
-  const { title, category, inputs = [], outputs = [], controls = [] } = data
+  const {
+    title,
+    category,
+    description,
+    inputs = [],
+    outputs = [],
+    controls = [],
+  } = data
 
   // カテゴリーに基づいて色を取得
   const color = getCategoryColor(category)
@@ -47,6 +57,12 @@ export const BaseNode = ({ data }: NodeProps<NodeData>) => {
         <ChevronDown size={18} />
         <span className="font-bold text-white">{title}</span>
       </div>
+      {/* 説明文を追加 */}
+      {description && (
+        <div className="p-2 text-xs italic text-[#888888] border-b border-[#303030] bg-[#2a2a2a]">
+          {description}
+        </div>
+      )}
       <div className="p-2 space-y-3">
         {/* 1. 入力ソケット (左側) */}
         {inputs.map((input, i) => (

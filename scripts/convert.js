@@ -3,7 +3,10 @@ const fs = require("fs")
 const path = require("path")
 
 // src/data/nodes.csv を参照するようにパスを修正
-const csvFilePath = path.join(__dirname, "../src/data/nodes.csv")
+const csvFilePath = path.join(
+  __dirname,
+  "../src/data/26-05-24_tsl nodes(nodes).csv",
+)
 const outputFilePath = path.join(__dirname, "../src/data/nodes.json")
 
 csv()
@@ -13,6 +16,7 @@ csv()
       id: `${node.category}-${node.name}`.toLowerCase().replace(/\s+/g, "-"),
       title: node.name,
       category: node.category,
+      description: node.description,
       // カンマ区切りの入力があれば配列化、なければ空配列
       inputs: node.inputs
         ? node.inputs.split(",").map((name) => ({ name: name.trim() }))

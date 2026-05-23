@@ -3,7 +3,12 @@
     "id": "math-abs(-x-)",
     "title": "abs( x )",
     "category": "Math",
-    "inputs": [],
+    "description": "Return the absolute value of the parameter.",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
     "outputs": [
       {
         "name": "float"
@@ -14,6 +19,7 @@
     "id": "math-acos(-x-)",
     "title": "acos( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -35,6 +41,7 @@
     "id": "math-all(-x-)",
     "title": "all( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -50,6 +57,7 @@
     "id": "math-any(-x-)",
     "title": "any( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -65,6 +73,7 @@
     "id": "math-asin(-x-)",
     "title": "asin( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -80,6 +89,7 @@
     "id": "math-atan(-y,-x-)",
     "title": "atan( y, x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -95,6 +105,7 @@
     "id": "math-bitcast(-x,-y-)",
     "title": "bitcast( x, y )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -110,6 +121,7 @@
     "id": "math-cbrt(-x-)",
     "title": "cbrt( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -125,6 +137,7 @@
     "id": "math-ceil(-x-)",
     "title": "ceil( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -140,6 +153,7 @@
     "id": "math-clamp(-x,-min,-max-)",
     "title": "clamp( x, min, max )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -155,6 +169,7 @@
     "id": "math-cos(-x-)",
     "title": "cos( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -170,6 +185,7 @@
     "id": "math-cross(-x,-y-)",
     "title": "cross( x, y )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -185,6 +201,7 @@
     "id": "math-dfdx(-p-)",
     "title": "dFdx( p )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -200,6 +217,7 @@
     "id": "math-dfdy(-p-)",
     "title": "dFdy( p )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -215,6 +233,7 @@
     "id": "math-degrees(-radians-)",
     "title": "degrees( radians )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -230,6 +249,7 @@
     "id": "math-difference(-x,-y-)",
     "title": "difference( x, y )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -245,6 +265,7 @@
     "id": "math-distance(-x,-y-)",
     "title": "distance( x, y )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -260,6 +281,7 @@
     "id": "math-dot(-x,-y-)",
     "title": "dot( x, y )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -275,6 +297,7 @@
     "id": "math-equals(-x,-y-)",
     "title": "equals( x, y )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -290,6 +313,7 @@
     "id": "math-exp(-x-)",
     "title": "exp( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -305,6 +329,7 @@
     "id": "math-exp2(-x-)",
     "title": "exp2( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -320,6 +345,7 @@
     "id": "math-faceforward(-n,-i,-nref-)",
     "title": "faceforward( N, I, Nref )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -335,6 +361,7 @@
     "id": "math-floor(-x-)",
     "title": "floor( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -350,6 +377,7 @@
     "id": "math-fract(-x-)",
     "title": "fract( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -365,6 +393,7 @@
     "id": "math-fwidth(-x-)",
     "title": "fwidth( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -380,6 +409,7 @@
     "id": "math-inversesqrt(-x-)",
     "title": "inverseSqrt( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -395,6 +425,7 @@
     "id": "math-length(-x-)",
     "title": "length( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -410,6 +441,7 @@
     "id": "math-lengthsq(-x-)",
     "title": "lengthSq( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -425,6 +457,7 @@
     "id": "math-log(-x-)",
     "title": "log( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -440,6 +473,7 @@
     "id": "math-log2(-x-)",
     "title": "log2( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -455,6 +489,7 @@
     "id": "math-max(-x,-y-)",
     "title": "max( x, y )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -470,6 +505,7 @@
     "id": "math-min(-x,-y-)",
     "title": "min( x, y )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -485,6 +521,7 @@
     "id": "math-mix(-x,-y,-a-)",
     "title": "mix( x, y, a )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -500,6 +537,7 @@
     "id": "math-negate(-x-)",
     "title": "negate( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -515,6 +553,7 @@
     "id": "math-normalize(-x-)",
     "title": "normalize( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -530,6 +569,7 @@
     "id": "math-oneminus(-x-)",
     "title": "oneMinus( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -545,6 +585,7 @@
     "id": "math-pow(-x,-y-)",
     "title": "pow( x, y )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -560,6 +601,7 @@
     "id": "math-pow2(-x-)",
     "title": "pow2( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -575,6 +617,7 @@
     "id": "math-pow3(-x-)",
     "title": "pow3( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -590,6 +633,7 @@
     "id": "math-pow4(-x-)",
     "title": "pow4( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -605,6 +649,7 @@
     "id": "math-radians(-degrees-)",
     "title": "radians( degrees )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -620,6 +665,7 @@
     "id": "math-reciprocal(-x-)",
     "title": "reciprocal( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -635,6 +681,7 @@
     "id": "math-reflect(-i,-n-)",
     "title": "reflect( I, N )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -650,6 +697,7 @@
     "id": "math-refract(-i,-n,-eta-)",
     "title": "refract( I, N, eta )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -665,6 +713,7 @@
     "id": "math-round(-x-)",
     "title": "round( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -680,6 +729,7 @@
     "id": "math-saturate(-x-)",
     "title": "saturate( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -695,6 +745,7 @@
     "id": "math-sign(-x-)",
     "title": "sign( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -710,6 +761,7 @@
     "id": "math-sin(-x-)",
     "title": "sin( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -725,6 +777,7 @@
     "id": "math-smoothstep(-e0,-e1,-x-)",
     "title": "smoothstep( e0, e1, x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -740,6 +793,7 @@
     "id": "math-sqrt(-x-)",
     "title": "sqrt( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -755,6 +809,7 @@
     "id": "math-step(-edge,-x-)",
     "title": "step( edge, x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -770,6 +825,7 @@
     "id": "math-tan(-x-)",
     "title": "tan( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -785,6 +841,7 @@
     "id": "math-transformdirection(-dir,-matrix-)",
     "title": "transformDirection( dir, matrix )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -800,6 +857,7 @@
     "id": "math-trunc(-x-)",
     "title": "trunc( x )",
     "category": "Math",
+    "description": "",
     "inputs": [
       {
         "name": "x"
@@ -812,9 +870,10 @@
     ]
   },
   {
-    "id": "-",
-    "title": "",
-    "category": "",
+    "id": "constants-two_pi",
+    "title": "TWO_PI",
+    "category": "Constants",
+    "description": "Two times π (2π).",
     "inputs": [],
     "outputs": []
   },
@@ -822,6 +881,7 @@
     "id": "-",
     "title": "",
     "category": "",
+    "description": "",
     "inputs": [],
     "outputs": []
   },
@@ -829,6 +889,7 @@
     "id": "-",
     "title": "",
     "category": "",
+    "description": "",
     "inputs": [],
     "outputs": []
   },
@@ -836,6 +897,7 @@
     "id": "-",
     "title": "",
     "category": "",
+    "description": "",
     "inputs": [],
     "outputs": []
   },
@@ -843,6 +905,7 @@
     "id": "-",
     "title": "",
     "category": "",
+    "description": "",
     "inputs": [],
     "outputs": []
   },
@@ -850,6 +913,7 @@
     "id": "-",
     "title": "",
     "category": "",
+    "description": "",
     "inputs": [],
     "outputs": []
   }
