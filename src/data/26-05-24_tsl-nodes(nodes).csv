@@ -1,6 +1,6 @@
 ﻿category,name,inputs,output,description,controls,,TSL Specification,
 Math,abs( x ),x,float,Return the absolute value of the parameter.,"x:number:0,y:number:0,z:number:0",,https://threejs.org/docs/TSL.html?utm_source=chatgpt.com,
-Math,acos( x ),"x,min,max",float,Return the arccosine of the parameter.,,,,
+Math,acos( x ),x,float,Return the arccosine of the parameter.,,,,
 Math,all( x ),x,float,Return true if all components of x are true.,,,,
 Math,any( x ),x,float,Return true if any component of x is true.,,,,
 Math,asin( x ),x,float,Return the arcsine of the parameter.,,,,

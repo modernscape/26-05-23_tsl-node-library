@@ -38,12 +38,6 @@
     "inputs": [
       {
         "name": "x"
-      },
-      {
-        "name": "min"
-      },
-      {
-        "name": "max"
       }
     ],
     "outputs": [
