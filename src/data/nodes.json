@@ -1,0 +1,856 @@
+[
+  {
+    "id": "math-abs(-x-)",
+    "title": "abs( x )",
+    "category": "Math",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-acos(-x-)",
+    "title": "acos( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      },
+      {
+        "name": "min"
+      },
+      {
+        "name": "max"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-all(-x-)",
+    "title": "all( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-any(-x-)",
+    "title": "any( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-asin(-x-)",
+    "title": "asin( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-atan(-y,-x-)",
+    "title": "atan( y, x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-bitcast(-x,-y-)",
+    "title": "bitcast( x, y )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-cbrt(-x-)",
+    "title": "cbrt( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-ceil(-x-)",
+    "title": "ceil( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-clamp(-x,-min,-max-)",
+    "title": "clamp( x, min, max )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-cos(-x-)",
+    "title": "cos( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-cross(-x,-y-)",
+    "title": "cross( x, y )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-dfdx(-p-)",
+    "title": "dFdx( p )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-dfdy(-p-)",
+    "title": "dFdy( p )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-degrees(-radians-)",
+    "title": "degrees( radians )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-difference(-x,-y-)",
+    "title": "difference( x, y )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-distance(-x,-y-)",
+    "title": "distance( x, y )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-dot(-x,-y-)",
+    "title": "dot( x, y )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-equals(-x,-y-)",
+    "title": "equals( x, y )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-exp(-x-)",
+    "title": "exp( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-exp2(-x-)",
+    "title": "exp2( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-faceforward(-n,-i,-nref-)",
+    "title": "faceforward( N, I, Nref )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-floor(-x-)",
+    "title": "floor( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-fract(-x-)",
+    "title": "fract( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-fwidth(-x-)",
+    "title": "fwidth( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-inversesqrt(-x-)",
+    "title": "inverseSqrt( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-length(-x-)",
+    "title": "length( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-lengthsq(-x-)",
+    "title": "lengthSq( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-log(-x-)",
+    "title": "log( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-log2(-x-)",
+    "title": "log2( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-max(-x,-y-)",
+    "title": "max( x, y )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-min(-x,-y-)",
+    "title": "min( x, y )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-mix(-x,-y,-a-)",
+    "title": "mix( x, y, a )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-negate(-x-)",
+    "title": "negate( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-normalize(-x-)",
+    "title": "normalize( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-oneminus(-x-)",
+    "title": "oneMinus( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-pow(-x,-y-)",
+    "title": "pow( x, y )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-pow2(-x-)",
+    "title": "pow2( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-pow3(-x-)",
+    "title": "pow3( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-pow4(-x-)",
+    "title": "pow4( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-radians(-degrees-)",
+    "title": "radians( degrees )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-reciprocal(-x-)",
+    "title": "reciprocal( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-reflect(-i,-n-)",
+    "title": "reflect( I, N )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-refract(-i,-n,-eta-)",
+    "title": "refract( I, N, eta )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-round(-x-)",
+    "title": "round( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-saturate(-x-)",
+    "title": "saturate( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-sign(-x-)",
+    "title": "sign( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-sin(-x-)",
+    "title": "sin( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-smoothstep(-e0,-e1,-x-)",
+    "title": "smoothstep( e0, e1, x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-sqrt(-x-)",
+    "title": "sqrt( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-step(-edge,-x-)",
+    "title": "step( edge, x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-tan(-x-)",
+    "title": "tan( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-transformdirection(-dir,-matrix-)",
+    "title": "transformDirection( dir, matrix )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "math-trunc(-x-)",
+    "title": "trunc( x )",
+    "category": "Math",
+    "inputs": [
+      {
+        "name": "x"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
+  },
+  {
+    "id": "-",
+    "title": "",
+    "category": "",
+    "inputs": [],
+    "outputs": []
+  },
+  {
+    "id": "-",
+    "title": "",
+    "category": "",
+    "inputs": [],
+    "outputs": []
+  },
+  {
+    "id": "-",
+    "title": "",
+    "category": "",
+    "inputs": [],
+    "outputs": []
+  },
+  {
+    "id": "-",
+    "title": "",
+    "category": "",
+    "inputs": [],
+    "outputs": []
+  },
+  {
+    "id": "-",
+    "title": "",
+    "category": "",
+    "inputs": [],
+    "outputs": []
+  },
+  {
+    "id": "-",
+    "title": "",
+    "category": "",
+    "inputs": [],
+    "outputs": []
+  }
+]
