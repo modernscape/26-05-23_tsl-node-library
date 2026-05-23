@@ -1,8 +1,7 @@
 [
   {
-    "id": "math-abs(-x-)",
+    "id": "abs( x )",
     "title": "abs( x )",
-    "category": "Math",
     "description": "Return the absolute value of the parameter.",
     "inputs": [
       {
@@ -13,12 +12,28 @@
       {
         "name": "float"
       }
+    ],
+    "controls": [
+      {
+        "name": "x",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "y",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "z",
+        "type": "number",
+        "value": 0
+      }
     ]
   },
   {
-    "id": "math-acos(-x-)",
+    "id": "acos( x )",
     "title": "acos( x )",
-    "category": "Math",
     "description": "Return the arccosine of the parameter.",
     "inputs": [
       {
@@ -35,12 +50,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-all(-x-)",
+    "id": "all( x )",
     "title": "all( x )",
-    "category": "Math",
     "description": "Return true if all components of x are true.",
     "inputs": [
       {
@@ -51,12 +66,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-any(-x-)",
+    "id": "any( x )",
     "title": "any( x )",
-    "category": "Math",
     "description": "Return true if any component of x is true.",
     "inputs": [
       {
@@ -67,12 +82,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-asin(-x-)",
+    "id": "asin( x )",
     "title": "asin( x )",
-    "category": "Math",
     "description": "Return the arcsine of the parameter.",
     "inputs": [
       {
@@ -83,12 +98,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-atan(-y,-x-)",
+    "id": "atan( y, x )",
     "title": "atan( y, x )",
-    "category": "Math",
     "description": "Return the arc-tangent of the parameters.",
     "inputs": [
       {
@@ -99,12 +114,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-bitcast(-x,-y-)",
+    "id": "bitcast( x, y )",
     "title": "bitcast( x, y )",
-    "category": "Math",
     "description": "Reinterpret the bits of a value as a different type.",
     "inputs": [
       {
@@ -115,12 +130,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-cbrt(-x-)",
+    "id": "cbrt( x )",
     "title": "cbrt( x )",
-    "category": "Math",
     "description": "Return the cube root of the parameter.",
     "inputs": [
       {
@@ -131,12 +146,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-ceil(-x-)",
+    "id": "ceil( x )",
     "title": "ceil( x )",
-    "category": "Math",
     "description": "Find the nearest integer that is greater than or equal to the parameter.",
     "inputs": [
       {
@@ -147,12 +162,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-clamp(-x,-min,-max-)",
+    "id": "clamp( x, min, max )",
     "title": "clamp( x, min, max )",
-    "category": "Math",
     "description": "Constrain a value to lie between two further values.",
     "inputs": [
       {
@@ -163,12 +178,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-cos(-x-)",
+    "id": "cos( x )",
     "title": "cos( x )",
-    "category": "Math",
     "description": "Return the cosine of the parameter.",
     "inputs": [
       {
@@ -179,12 +194,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-cross(-x,-y-)",
+    "id": "cross( x, y )",
     "title": "cross( x, y )",
-    "category": "Math",
     "description": "Calculate the cross product of two vectors.",
     "inputs": [
       {
@@ -195,12 +210,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-dfdx(-p-)",
+    "id": "dFdx( p )",
     "title": "dFdx( p )",
-    "category": "Math",
     "description": "Return the partial derivative of an argument with respect to x.",
     "inputs": [
       {
@@ -211,12 +226,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-dfdy(-p-)",
+    "id": "dFdy( p )",
     "title": "dFdy( p )",
-    "category": "Math",
     "description": "Return the partial derivative of an argument with respect to y.",
     "inputs": [
       {
@@ -227,12 +242,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-degrees(-radians-)",
+    "id": "degrees( radians )",
     "title": "degrees( radians )",
-    "category": "Math",
     "description": "Convert a quantity in radians to degrees.",
     "inputs": [
       {
@@ -243,12 +258,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-difference(-x,-y-)",
+    "id": "difference( x, y )",
     "title": "difference( x, y )",
-    "category": "Math",
     "description": "Calculate the absolute difference between two values.",
     "inputs": [
       {
@@ -259,12 +274,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-distance(-x,-y-)",
+    "id": "distance( x, y )",
     "title": "distance( x, y )",
-    "category": "Math",
     "description": "Calculate the distance between two points.",
     "inputs": [
       {
@@ -275,12 +290,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-dot(-x,-y-)",
+    "id": "dot( x, y )",
     "title": "dot( x, y )",
-    "category": "Math",
     "description": "Calculate the dot product of two vectors.",
     "inputs": [
       {
@@ -291,12 +306,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-equals(-x,-y-)",
+    "id": "equals( x, y )",
     "title": "equals( x, y )",
-    "category": "Math",
     "description": "Return true if x equals y.",
     "inputs": [
       {
@@ -307,12 +322,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-exp(-x-)",
+    "id": "exp( x )",
     "title": "exp( x )",
-    "category": "Math",
     "description": "Return the natural exponentiation of the parameter.",
     "inputs": [
       {
@@ -323,12 +338,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-exp2(-x-)",
+    "id": "exp2( x )",
     "title": "exp2( x )",
-    "category": "Math",
     "description": "Return 2 raised to the power of the parameter.",
     "inputs": [
       {
@@ -339,12 +354,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-faceforward(-n,-i,-nref-)",
+    "id": "faceforward( N, I, Nref )",
     "title": "faceforward( N, I, Nref )",
-    "category": "Math",
     "description": "Return a vector pointing in the same direction as another.",
     "inputs": [
       {
@@ -355,12 +370,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-floor(-x-)",
+    "id": "floor( x )",
     "title": "floor( x )",
-    "category": "Math",
     "description": "Find the nearest integer less than or equal to the parameter.",
     "inputs": [
       {
@@ -371,12 +386,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-fract(-x-)",
+    "id": "fract( x )",
     "title": "fract( x )",
-    "category": "Math",
     "description": "Compute the fractional part of the argument.",
     "inputs": [
       {
@@ -387,12 +402,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-fwidth(-x-)",
+    "id": "fwidth( x )",
     "title": "fwidth( x )",
-    "category": "Math",
     "description": "Return the sum of the absolute derivatives in x and y.",
     "inputs": [
       {
@@ -403,12 +418,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-inversesqrt(-x-)",
+    "id": "inverseSqrt( x )",
     "title": "inverseSqrt( x )",
-    "category": "Math",
     "description": "Return the inverse of the square root of the parameter.",
     "inputs": [
       {
@@ -419,12 +434,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-length(-x-)",
+    "id": "length( x )",
     "title": "length( x )",
-    "category": "Math",
     "description": "Calculate the length of a vector.",
     "inputs": [
       {
@@ -435,12 +450,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-lengthsq(-x-)",
+    "id": "lengthSq( x )",
     "title": "lengthSq( x )",
-    "category": "Math",
     "description": "Calculate the squared length of a vector.",
     "inputs": [
       {
@@ -451,12 +466,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-log(-x-)",
+    "id": "log( x )",
     "title": "log( x )",
-    "category": "Math",
     "description": "Return the natural logarithm of the parameter.",
     "inputs": [
       {
@@ -467,12 +482,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-log2(-x-)",
+    "id": "log2( x )",
     "title": "log2( x )",
-    "category": "Math",
     "description": "Return the base 2 logarithm of the parameter.",
     "inputs": [
       {
@@ -483,12 +498,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-max(-x,-y-)",
+    "id": "max( x, y )",
     "title": "max( x, y )",
-    "category": "Math",
     "description": "Return the greater of two values.",
     "inputs": [
       {
@@ -499,12 +514,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-min(-x,-y-)",
+    "id": "min( x, y )",
     "title": "min( x, y )",
-    "category": "Math",
     "description": "Return the lesser of two values.",
     "inputs": [
       {
@@ -515,12 +530,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-mix(-x,-y,-a-)",
+    "id": "mix( x, y, a )",
     "title": "mix( x, y, a )",
-    "category": "Math",
     "description": "Linearly interpolate between two values.",
     "inputs": [
       {
@@ -531,12 +546,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-negate(-x-)",
+    "id": "negate( x )",
     "title": "negate( x )",
-    "category": "Math",
     "description": "Negate the value of the parameter ( -x ).",
     "inputs": [
       {
@@ -547,12 +562,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-normalize(-x-)",
+    "id": "normalize( x )",
     "title": "normalize( x )",
-    "category": "Math",
     "description": "Calculate the unit vector in the same direction as the original vector.",
     "inputs": [
       {
@@ -563,12 +578,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-oneminus(-x-)",
+    "id": "oneMinus( x )",
     "title": "oneMinus( x )",
-    "category": "Math",
     "description": "Return 1 minus the parameter.",
     "inputs": [
       {
@@ -579,12 +594,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-pow(-x,-y-)",
+    "id": "pow( x, y )",
     "title": "pow( x, y )",
-    "category": "Math",
     "description": "Return the value of the first parameter raised to the power of the second.",
     "inputs": [
       {
@@ -595,12 +610,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-pow2(-x-)",
+    "id": "pow2( x )",
     "title": "pow2( x )",
-    "category": "Math",
     "description": "Return the square of the parameter.",
     "inputs": [
       {
@@ -611,12 +626,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-pow3(-x-)",
+    "id": "pow3( x )",
     "title": "pow3( x )",
-    "category": "Math",
     "description": "Return the cube of the parameter.",
     "inputs": [
       {
@@ -627,12 +642,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-pow4(-x-)",
+    "id": "pow4( x )",
     "title": "pow4( x )",
-    "category": "Math",
     "description": "Return the fourth power of the parameter.",
     "inputs": [
       {
@@ -643,12 +658,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-radians(-degrees-)",
+    "id": "radians( degrees )",
     "title": "radians( degrees )",
-    "category": "Math",
     "description": "Convert a quantity in degrees to radians.",
     "inputs": [
       {
@@ -659,12 +674,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-reciprocal(-x-)",
+    "id": "reciprocal( x )",
     "title": "reciprocal( x )",
-    "category": "Math",
     "description": "Return the reciprocal of the parameter (1/x).",
     "inputs": [
       {
@@ -675,12 +690,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-reflect(-i,-n-)",
+    "id": "reflect( I, N )",
     "title": "reflect( I, N )",
-    "category": "Math",
     "description": "Calculate the reflection direction for an incident vector.",
     "inputs": [
       {
@@ -691,12 +706,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-refract(-i,-n,-eta-)",
+    "id": "refract( I, N, eta )",
     "title": "refract( I, N, eta )",
-    "category": "Math",
     "description": "Calculate the refraction direction for an incident vector.",
     "inputs": [
       {
@@ -707,12 +722,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-round(-x-)",
+    "id": "round( x )",
     "title": "round( x )",
-    "category": "Math",
     "description": "Round the parameter to the nearest integer.",
     "inputs": [
       {
@@ -723,12 +738,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-saturate(-x-)",
+    "id": "saturate( x )",
     "title": "saturate( x )",
-    "category": "Math",
     "description": "Constrain a value between 0 and 1.",
     "inputs": [
       {
@@ -739,12 +754,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-sign(-x-)",
+    "id": "sign( x )",
     "title": "sign( x )",
-    "category": "Math",
     "description": "Extract the sign of the parameter.",
     "inputs": [
       {
@@ -755,12 +770,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-sin(-x-)",
+    "id": "sin( x )",
     "title": "sin( x )",
-    "category": "Math",
     "description": "Return the sine of the parameter.",
     "inputs": [
       {
@@ -771,12 +786,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-smoothstep(-e0,-e1,-x-)",
+    "id": "smoothstep( e0, e1, x )",
     "title": "smoothstep( e0, e1, x )",
-    "category": "Math",
     "description": "Perform Hermite interpolation between two values.",
     "inputs": [
       {
@@ -787,12 +802,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-sqrt(-x-)",
+    "id": "sqrt( x )",
     "title": "sqrt( x )",
-    "category": "Math",
     "description": "Return the square root of the parameter.",
     "inputs": [
       {
@@ -803,12 +818,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-step(-edge,-x-)",
+    "id": "step( edge, x )",
     "title": "step( edge, x )",
-    "category": "Math",
     "description": "Generate a step function by comparing two values.",
     "inputs": [
       {
@@ -819,12 +834,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-tan(-x-)",
+    "id": "tan( x )",
     "title": "tan( x )",
-    "category": "Math",
     "description": "Return the tangent of the parameter.",
     "inputs": [
       {
@@ -835,12 +850,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-transformdirection(-dir,-matrix-)",
+    "id": "transformDirection( dir, matrix )",
     "title": "transformDirection( dir, matrix )",
-    "category": "Math",
     "description": "Transform the direction of a vector by a matrix and then normalize the result.",
     "inputs": [
       {
@@ -851,12 +866,12 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "math-trunc(-x-)",
+    "id": "trunc( x )",
     "title": "trunc( x )",
-    "category": "Math",
     "description": "Truncate the parameter, removing the fractional part.",
     "inputs": [
       {
@@ -867,18 +882,19 @@
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   },
   {
-    "id": "constants-two_pi",
+    "id": "TWO_PI",
     "title": "TWO_PI",
-    "category": "Constants",
     "description": "Two times π (2π).",
     "inputs": [],
     "outputs": [
       {
         "name": "float"
       }
-    ]
+    ],
+    "controls": []
   }
 ]

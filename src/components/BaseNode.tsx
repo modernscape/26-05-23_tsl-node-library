@@ -82,13 +82,13 @@ export const BaseNode = ({ data }: NodeProps<NodeData>) => {
         {controls.map((ctrl, i) => (
           <div
             key={i}
-            className="flex items-center gap-2 bg-[#404040] p-1 rounded"
+            className="flex items-center gap-2 bg-[#404040] p-1 rounded pointer-events-none"
           >
             <span className="w-20 truncate">{ctrl.name}</span>
             <input
               type="number"
               defaultValue={ctrl.value}
-              className="w-full bg-transparent text-right outline-none text-white"
+              className="w-full bg-transparent text-right outline-none text-white nodrag pointer-event-auto"
             />
           </div>
         ))}

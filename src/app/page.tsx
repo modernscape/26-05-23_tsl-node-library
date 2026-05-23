@@ -6,6 +6,9 @@ import "reactflow/dist/style.css"
 import { BaseNode } from "@/components/BaseNode"
 import nodeData from "@//data/nodes.json" // 生成したJSONをインポート
 
+// import nodeData from "../data/nodes.json"
+// import { NodeData } from "../types/node"
+
 // nodeDataの型定義
 type NodeData = {
   id: string
@@ -13,19 +16,20 @@ type NodeData = {
   title: string
   inputs?: { name: string }[]
   outputs?: { name: string }[]
+  controls: { name: string; type: string; value: number }[]
 }
 
 export default function Home() {
   // 1. ノードの構築
   const nodes: Node[] = useMemo(() => {
-    return (nodeData as NodeData[]).map((d, index) => ({
+    return (nodeData as unknown as NodeData[]).map((d, index) => ({
       id: d.id,
       type: "baseNode",
       draggable: false,
       // カテゴリーごとにX軸をずらして配置するロジック
       position: {
         x: (index % 4) * 300,
-        y: Math.floor(index / 4) * 250,
+        y: Math.floor(index / 4) * 350,
       },
       data: d, // BaseNode にデータを渡す
     }))
