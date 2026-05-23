@@ -1,32 +1,26 @@
-const csv = require("csvtojson")
 const fs = require("fs")
-const path = require("path")
+const csv = require("csv-parser")
 
-// src/data/nodes.csv を参照するようにパスを修正
-const csvFilePath = path.join(
-  __dirname,
-  "../src/data/26-05-24_tsl nodes(nodes).csv",
-)
-const outputFilePath = path.join(__dirname, "../src/data/nodes.json")
+const results = []
 
-csv()
-  .fromFile(csvFilePath)
-  .then((jsonObj) => {
-    const formatted = jsonObj.map((node) => ({
-      id: `${node.category}-${node.name}`.toLowerCase().replace(/\s+/g, "-"),
-      title: node.name,
-      category: node.category,
-      description: node.description,
-      // カンマ区切りの入力があれば配列化、なければ空配列
-      inputs: node.inputs
-        ? node.inputs.split(",").map((name) => ({ name: name.trim() }))
-        : [],
-      outputs: node.output ? [{ name: node.output.trim() }] : [],
-    }))
-
-    fs.writeFileSync(outputFilePath, JSON.stringify(formatted, null, 2))
-    console.log("✅ Success! JSON generated at src/data/nodes.json")
+fs.createReadStream("nodes.csv")
+  .pipe(csv())
+  .on("data", (data) => {
+    // 【重要】ここで name が空文字でないかチェックする
+    if (data.name && data.name.trim() !== "") {
+      results.push({
+        id: data.name, // nameをIDとして使用
+        category: data.category,
+        title: data.name,
+        description: data.description, // descriptionも追加
+        inputs: data.inputs
+          ? data.inputs.split(",").map((name) => ({ name }))
+          : [],
+        outputs: data.output ? [{ name: data.output }] : [],
+      })
+    }
   })
-  .catch((err) => {
-    console.error("❌ Error:", err.message)
+  .on("end", () => {
+    fs.writeFileSync("nodes.json", JSON.stringify(results, null, 2))
+    console.log("CSV変換完了: 空行をスキップしました")
   })

@@ -875,46 +875,10 @@
     "category": "Constants",
     "description": "Two times π (2π).",
     "inputs": [],
-    "outputs": []
-  },
-  {
-    "id": "-",
-    "title": "",
-    "category": "",
-    "description": "",
-    "inputs": [],
-    "outputs": []
-  },
-  {
-    "id": "-",
-    "title": "",
-    "category": "",
-    "description": "",
-    "inputs": [],
-    "outputs": []
-  },
-  {
-    "id": "-",
-    "title": "",
-    "category": "",
-    "description": "",
-    "inputs": [],
-    "outputs": []
-  },
-  {
-    "id": "-",
-    "title": "",
-    "category": "",
-    "description": "",
-    "inputs": [],
-    "outputs": []
-  },
-  {
-    "id": "-",
-    "title": "",
-    "category": "",
-    "description": "",
-    "inputs": [],
-    "outputs": []
+    "outputs": [
+      {
+        "name": "float"
+      }
+    ]
   }
 ]
