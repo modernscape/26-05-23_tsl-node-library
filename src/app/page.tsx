@@ -21,6 +21,7 @@ export default function Home() {
     return (nodeData as NodeData[]).map((d, index) => ({
       id: d.id,
       type: "baseNode",
+      draggable: false,
       // カテゴリーごとにX軸をずらして配置するロジック
       position: {
         x: (index % 4) * 300,
