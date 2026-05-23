@@ -1,6 +1,7 @@
 [
   {
     "id": "abs( x )",
+    "category": "Math",
     "title": "abs( x )",
     "description": "Return the absolute value of the parameter.",
     "inputs": [
@@ -33,6 +34,7 @@
   },
   {
     "id": "acos( x )",
+    "category": "Math",
     "title": "acos( x )",
     "description": "Return the arccosine of the parameter.",
     "inputs": [
@@ -49,6 +51,7 @@
   },
   {
     "id": "all( x )",
+    "category": "Math",
     "title": "all( x )",
     "description": "Return true if all components of x are true.",
     "inputs": [
@@ -65,6 +68,7 @@
   },
   {
     "id": "any( x )",
+    "category": "Math",
     "title": "any( x )",
     "description": "Return true if any component of x is true.",
     "inputs": [
@@ -81,6 +85,7 @@
   },
   {
     "id": "asin( x )",
+    "category": "Math",
     "title": "asin( x )",
     "description": "Return the arcsine of the parameter.",
     "inputs": [
@@ -97,6 +102,7 @@
   },
   {
     "id": "atan( y, x )",
+    "category": "Math",
     "title": "atan( y, x )",
     "description": "Return the arc-tangent of the parameters.",
     "inputs": [
@@ -113,6 +119,7 @@
   },
   {
     "id": "bitcast( x, y )",
+    "category": "Math",
     "title": "bitcast( x, y )",
     "description": "Reinterpret the bits of a value as a different type.",
     "inputs": [
@@ -129,6 +136,7 @@
   },
   {
     "id": "cbrt( x )",
+    "category": "Math",
     "title": "cbrt( x )",
     "description": "Return the cube root of the parameter.",
     "inputs": [
@@ -145,6 +153,7 @@
   },
   {
     "id": "ceil( x )",
+    "category": "Math",
     "title": "ceil( x )",
     "description": "Find the nearest integer that is greater than or equal to the parameter.",
     "inputs": [
@@ -161,6 +170,7 @@
   },
   {
     "id": "clamp( x, min, max )",
+    "category": "Math",
     "title": "clamp( x, min, max )",
     "description": "Constrain a value to lie between two further values.",
     "inputs": [
@@ -177,6 +187,7 @@
   },
   {
     "id": "cos( x )",
+    "category": "Math",
     "title": "cos( x )",
     "description": "Return the cosine of the parameter.",
     "inputs": [
@@ -193,6 +204,7 @@
   },
   {
     "id": "cross( x, y )",
+    "category": "Math",
     "title": "cross( x, y )",
     "description": "Calculate the cross product of two vectors.",
     "inputs": [
@@ -209,6 +221,7 @@
   },
   {
     "id": "dFdx( p )",
+    "category": "Math",
     "title": "dFdx( p )",
     "description": "Return the partial derivative of an argument with respect to x.",
     "inputs": [
@@ -225,6 +238,7 @@
   },
   {
     "id": "dFdy( p )",
+    "category": "Math",
     "title": "dFdy( p )",
     "description": "Return the partial derivative of an argument with respect to y.",
     "inputs": [
@@ -241,6 +255,7 @@
   },
   {
     "id": "degrees( radians )",
+    "category": "Math",
     "title": "degrees( radians )",
     "description": "Convert a quantity in radians to degrees.",
     "inputs": [
@@ -257,6 +272,7 @@
   },
   {
     "id": "difference( x, y )",
+    "category": "Math",
     "title": "difference( x, y )",
     "description": "Calculate the absolute difference between two values.",
     "inputs": [
@@ -273,6 +289,7 @@
   },
   {
     "id": "distance( x, y )",
+    "category": "Math",
     "title": "distance( x, y )",
     "description": "Calculate the distance between two points.",
     "inputs": [
@@ -289,6 +306,7 @@
   },
   {
     "id": "dot( x, y )",
+    "category": "Math",
     "title": "dot( x, y )",
     "description": "Calculate the dot product of two vectors.",
     "inputs": [
@@ -305,6 +323,7 @@
   },
   {
     "id": "equals( x, y )",
+    "category": "Math",
     "title": "equals( x, y )",
     "description": "Return true if x equals y.",
     "inputs": [
@@ -321,6 +340,7 @@
   },
   {
     "id": "exp( x )",
+    "category": "Math",
     "title": "exp( x )",
     "description": "Return the natural exponentiation of the parameter.",
     "inputs": [
@@ -337,6 +357,7 @@
   },
   {
     "id": "exp2( x )",
+    "category": "Math",
     "title": "exp2( x )",
     "description": "Return 2 raised to the power of the parameter.",
     "inputs": [
@@ -353,6 +374,7 @@
   },
   {
     "id": "faceforward( N, I, Nref )",
+    "category": "Math",
     "title": "faceforward( N, I, Nref )",
     "description": "Return a vector pointing in the same direction as another.",
     "inputs": [
@@ -369,6 +391,7 @@
   },
   {
     "id": "floor( x )",
+    "category": "Math",
     "title": "floor( x )",
     "description": "Find the nearest integer less than or equal to the parameter.",
     "inputs": [
@@ -385,6 +408,7 @@
   },
   {
     "id": "fract( x )",
+    "category": "Math",
     "title": "fract( x )",
     "description": "Compute the fractional part of the argument.",
     "inputs": [
@@ -401,6 +425,7 @@
   },
   {
     "id": "fwidth( x )",
+    "category": "Math",
     "title": "fwidth( x )",
     "description": "Return the sum of the absolute derivatives in x and y.",
     "inputs": [
@@ -417,6 +442,7 @@
   },
   {
     "id": "inverseSqrt( x )",
+    "category": "Math",
     "title": "inverseSqrt( x )",
     "description": "Return the inverse of the square root of the parameter.",
     "inputs": [
@@ -433,6 +459,7 @@
   },
   {
     "id": "length( x )",
+    "category": "Math",
     "title": "length( x )",
     "description": "Calculate the length of a vector.",
     "inputs": [
@@ -449,6 +476,7 @@
   },
   {
     "id": "lengthSq( x )",
+    "category": "Math",
     "title": "lengthSq( x )",
     "description": "Calculate the squared length of a vector.",
     "inputs": [
@@ -465,6 +493,7 @@
   },
   {
     "id": "log( x )",
+    "category": "Math",
     "title": "log( x )",
     "description": "Return the natural logarithm of the parameter.",
     "inputs": [
@@ -481,6 +510,7 @@
   },
   {
     "id": "log2( x )",
+    "category": "Math",
     "title": "log2( x )",
     "description": "Return the base 2 logarithm of the parameter.",
     "inputs": [
@@ -497,6 +527,7 @@
   },
   {
     "id": "max( x, y )",
+    "category": "Math",
     "title": "max( x, y )",
     "description": "Return the greater of two values.",
     "inputs": [
@@ -513,6 +544,7 @@
   },
   {
     "id": "min( x, y )",
+    "category": "Math",
     "title": "min( x, y )",
     "description": "Return the lesser of two values.",
     "inputs": [
@@ -529,6 +561,7 @@
   },
   {
     "id": "mix( x, y, a )",
+    "category": "Math",
     "title": "mix( x, y, a )",
     "description": "Linearly interpolate between two values.",
     "inputs": [
@@ -545,6 +578,7 @@
   },
   {
     "id": "negate( x )",
+    "category": "Math",
     "title": "negate( x )",
     "description": "Negate the value of the parameter ( -x ).",
     "inputs": [
@@ -561,6 +595,7 @@
   },
   {
     "id": "normalize( x )",
+    "category": "Math",
     "title": "normalize( x )",
     "description": "Calculate the unit vector in the same direction as the original vector.",
     "inputs": [
@@ -577,6 +612,7 @@
   },
   {
     "id": "oneMinus( x )",
+    "category": "Math",
     "title": "oneMinus( x )",
     "description": "Return 1 minus the parameter.",
     "inputs": [
@@ -593,6 +629,7 @@
   },
   {
     "id": "pow( x, y )",
+    "category": "Math",
     "title": "pow( x, y )",
     "description": "Return the value of the first parameter raised to the power of the second.",
     "inputs": [
@@ -609,6 +646,7 @@
   },
   {
     "id": "pow2( x )",
+    "category": "Math",
     "title": "pow2( x )",
     "description": "Return the square of the parameter.",
     "inputs": [
@@ -625,6 +663,7 @@
   },
   {
     "id": "pow3( x )",
+    "category": "Math",
     "title": "pow3( x )",
     "description": "Return the cube of the parameter.",
     "inputs": [
@@ -641,6 +680,7 @@
   },
   {
     "id": "pow4( x )",
+    "category": "Math",
     "title": "pow4( x )",
     "description": "Return the fourth power of the parameter.",
     "inputs": [
@@ -657,6 +697,7 @@
   },
   {
     "id": "radians( degrees )",
+    "category": "Math",
     "title": "radians( degrees )",
     "description": "Convert a quantity in degrees to radians.",
     "inputs": [
@@ -673,6 +714,7 @@
   },
   {
     "id": "reciprocal( x )",
+    "category": "Math",
     "title": "reciprocal( x )",
     "description": "Return the reciprocal of the parameter (1/x).",
     "inputs": [
@@ -689,6 +731,7 @@
   },
   {
     "id": "reflect( I, N )",
+    "category": "Math",
     "title": "reflect( I, N )",
     "description": "Calculate the reflection direction for an incident vector.",
     "inputs": [
@@ -705,6 +748,7 @@
   },
   {
     "id": "refract( I, N, eta )",
+    "category": "Math",
     "title": "refract( I, N, eta )",
     "description": "Calculate the refraction direction for an incident vector.",
     "inputs": [
@@ -721,6 +765,7 @@
   },
   {
     "id": "round( x )",
+    "category": "Math",
     "title": "round( x )",
     "description": "Round the parameter to the nearest integer.",
     "inputs": [
@@ -737,6 +782,7 @@
   },
   {
     "id": "saturate( x )",
+    "category": "Math",
     "title": "saturate( x )",
     "description": "Constrain a value between 0 and 1.",
     "inputs": [
@@ -753,6 +799,7 @@
   },
   {
     "id": "sign( x )",
+    "category": "Math",
     "title": "sign( x )",
     "description": "Extract the sign of the parameter.",
     "inputs": [
@@ -769,6 +816,7 @@
   },
   {
     "id": "sin( x )",
+    "category": "Math",
     "title": "sin( x )",
     "description": "Return the sine of the parameter.",
     "inputs": [
@@ -785,6 +833,7 @@
   },
   {
     "id": "smoothstep( e0, e1, x )",
+    "category": "Math",
     "title": "smoothstep( e0, e1, x )",
     "description": "Perform Hermite interpolation between two values.",
     "inputs": [
@@ -801,6 +850,7 @@
   },
   {
     "id": "sqrt( x )",
+    "category": "Math",
     "title": "sqrt( x )",
     "description": "Return the square root of the parameter.",
     "inputs": [
@@ -817,6 +867,7 @@
   },
   {
     "id": "step( edge, x )",
+    "category": "Math",
     "title": "step( edge, x )",
     "description": "Generate a step function by comparing two values.",
     "inputs": [
@@ -833,6 +884,7 @@
   },
   {
     "id": "tan( x )",
+    "category": "Math",
     "title": "tan( x )",
     "description": "Return the tangent of the parameter.",
     "inputs": [
@@ -849,6 +901,7 @@
   },
   {
     "id": "transformDirection( dir, matrix )",
+    "category": "Math",
     "title": "transformDirection( dir, matrix )",
     "description": "Transform the direction of a vector by a matrix and then normalize the result.",
     "inputs": [
@@ -865,6 +918,7 @@
   },
   {
     "id": "trunc( x )",
+    "category": "Math",
     "title": "trunc( x )",
     "description": "Truncate the parameter, removing the fractional part.",
     "inputs": [
@@ -881,8 +935,9 @@
   },
   {
     "id": "TWO_PI",
+    "category": "Constants",
     "title": "TWO_PI",
-    "description": "Two times π (2π).",
+    "description": "Two times ? (2?).",
     "inputs": [],
     "outputs": [
       {

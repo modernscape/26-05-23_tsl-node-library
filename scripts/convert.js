@@ -15,6 +15,7 @@ const results = []
 fs.createReadStream(csvFilePath)
   .pipe(csv())
   .on("data", (data) => {
+    console.log("Raw CSV Data Row:", JSON.stringify(data))
     // 空行スキップのロジック
     if (data.name && data.name.trim() !== "") {
       results.push({
